@@ -27,6 +27,8 @@ typedef NS_ENUM(NSUInteger, GPUImageFillModeType) {
 
 @property(nonatomic) BOOL enabled;
 
+@property(nonatomic) CGRect viewBounds;
+
 /** Handling fill mode
  
  @param redComponent Red component for background color
